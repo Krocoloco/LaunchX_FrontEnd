@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contenedorEncabezado {
+    width: 100%;
+    height: 125px;
+}
+.encabezadoIzq {
+    color: #2949C7;
+    float: left;
+    width: 50%;
+    height: 100px;
+    margin: 0;
+    
+
+}
+
+.encabezadoDer {
+    float: right;
+    background-color: #E9F1FC;
+    width: 50%;
+    margin: 0;
+    
+
+}
+
+.opcionesHead a{
+    color: #77859C;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.boton{
+    background-color: #2747C5;
+    color: white;
+    float: right;
+}
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 50%;
+    background-color: #f1f1f1;
+    height: 300px;
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Estilo de footer */
+footer h1{
+    color: #2747C5;
+}
+footer {
+    background-color: #E9F1FC;
+    padding: 10px;
+    text-align: center;
+    color: #77859C;
+    height: 300px;
+    width: 100%;
+}
+
+.encabezadoFooter{
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.opcionesPie h1{
+    color: #15366C;
+}
+
+.opcionesPie{
+    float: right;
+    color: #77859C;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+.terminos{
+    clear: both;
+    color: #77859C;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+#copy {
+    float:left;
+    clear: both;
+   
+    
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
