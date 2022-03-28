@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./pokedex.css">
+    
+</head>
+<body>
+    <h1>Pokedex LaunchX</h1>
+    <input type="text" placeholder="Nombre/# de Pókemon" id="pokeName" name="pokeName">
+    <img src="./img/pokemon.svg" alt="Pokemon" id="pokeImg" width="150px">
+    <button onclick="fetchPokemon()">Buscar Pókemon</button>
+
+    <div name="pokemon_div" id="pokemon_div">
+        <h2>Pókemon:</h2>
+        <p id="pokemon"></p>
+    </div>
+    
+    <div name="poke:img" id="poke_img">
+        <p>Imagen:</p>   
+        <img src="" alt="Pokemon Front" id="pokeImgFront" width="150px">
+        <p>Imagen Back:</p>
+        <img src="" alt="Pokemon Back" id="pokeImgBack" width="150px">
+    </div>
+    <div name="poke_info" id="poke_info">   
+        <p id="pokeTipo">Tipo:</p>
+        <p id="tipo"></p>
+
+        <h2 id="pokeStats">Estadisticas:</h2>
+        <p class="pokeStats">HP:</p>
+    
+        <p id="stats_hp"></p>
+
+        <p class="pokeStats">Atack:</p>
+    
+        <p id="stats_atk"></p>
+
+        <p class="pokeStats">Defense:</p>
+    
+        <p id="stats_df"></p>
+
+        <p class="pokeStats">Special Atack:</p>
+    
+        <p id="stats_sp_atk"></p>
+
+        <p class="pokeStats">Special Defense:</p>
+    
+        <p id="stats_sp_df"></p>
+
+        <p class="pokeStats">Speed:</p>
+    
+        <p id="stats_spd"></p>
+
+        <h2 id="pokeMove">Movimientos:</h2>
+        <p id="moves"></p>
+    </div>
+    
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
